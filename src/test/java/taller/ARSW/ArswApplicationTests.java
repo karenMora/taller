@@ -12,6 +12,11 @@ public class ArswApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
+        
+        @Test 
+        public void getJsonMovie(){
+            
+        }
 
 }
 

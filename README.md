@@ -1,4 +1,4 @@
-# taller
+# RECUPERACION EXAMEN FINAL
 
 # Enunciado
 Su compañía lo ha seleccionado para construir una aplicación que demuestre una simple arquitectura de Microservicios desplegada en Heroku para uno de los clientes más importantes.
@@ -16,13 +16,17 @@ La arquitectura debe tener las siguientes características.
 - Se debe poder extender fácilmente, por ejemplo, es fácil agregar nuevas funcionalidades, o es fácil cambiar el proveedor de una funcionalidad.
 - Debe utilizar maven para gestionar el ciclo de vida, git y github para almacenar al código fuente y heroku como plataforma de producción.
 
+# ARQUITECTURA
+la arquitectura es cliente-servidor, manejando un cliente web y a heroku como el servidor que hace peticones a un api de http://omdbapi.com/ la cual entrega una llave para poder acceder a los datos de las peliculas y poder visualizarnos en el cliente web
 
-#heroku
+[](ARQ.png?raw=true "Modelo")
+
+# heroku
 https://floating-falls-95919.herokuapp.com/
 
 https://git.heroku.com/floating-falls-95919.git
 
-#GIT 
+# GIT 
 https://github.com/karenMora/taller
 
 # By

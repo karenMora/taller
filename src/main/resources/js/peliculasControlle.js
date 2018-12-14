@@ -1,18 +1,20 @@
 
 var peliculasModule=(function(){
     alert('ENTRO AL PELIS');
-    var getMovie=function(movie, year){
-        var callback={
-            onsucces:function()peliculas{
-                document.getElementaryById("Title").innerHTML+='<h2>'+JSON.stringify(peliculas.Title);
-                document.getElementaryById("Year").innerHTML+='<h2>'+JSON.stringify(peliculas.Year);
-            }
+
+    var getMovie=function(peli, year){
+        var callback = {
+            onsucces:function(peliculas){
+                docuement.getElementaryById('namePeli');
+                docuement.getElementaryById('añoPeli');
+            },
             onFailef:function(){
                 alert('no funciona');
             }
         }
+    restController.getPeliculas(peli,year,callback);
     };
-
+    
     return{
         getMovie:getMovie
     };

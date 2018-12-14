@@ -1,7 +1,7 @@
 var restController=(function(){
 alert('ENTRO AL REST');
-var getPeliculas=function(peli,callback){
-    axios.get('/movie/'+title+"/"+year)		
+var getPeliculas=function(peli,year,callback){
+    axios.get('/movie/'+peli+"/"+year)		
 		.then(function(response){
 			callback.onSuccess(response.data);			
 		})
@@ -9,8 +9,6 @@ var getPeliculas=function(peli,callback){
 			callback.onFailed(error);
 		});
 	};
-};
-
 return{
 getPeliculas:getPeliculas
 };
