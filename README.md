@@ -19,7 +19,7 @@ La arquitectura debe tener las siguientes características.
 # ARQUITECTURA
 la arquitectura es cliente-servidor, manejando un cliente web y a heroku como el servidor que hace peticones a un api de http://omdbapi.com/ la cual entrega una llave para poder acceder a los datos de las peliculas y poder visualizarnos en el cliente web
 
-[](ARQ.png?raw=true "Modelo")
+[](ARQ.png?raw=true "")
 
 # heroku
 https://floating-falls-95919.herokuapp.com/

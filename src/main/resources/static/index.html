@@ -28,7 +28,7 @@ and open the template in the editor.
                 <h4>Ingrese el año en el que salio la pelicula:</h4>
                 <input type="text" id="añoPeli" name="añoPeli">
                 <br><br>
-                <input type="button" value="buscar" id="buscar" name="Buscar" onclick="peliculasModule.getMovie($(namePeli).value,$(añoPeli).value)">
+                <input type="button" value="buscar" id="buscar" name="Buscar" onclick="peliculasModule.getMovie($('#namePeli').val(),$('#añoPeli').val())">
                 <br><br><br><br><br><br>
             </center>
             

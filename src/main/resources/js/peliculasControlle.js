@@ -5,8 +5,8 @@ var peliculasModule=(function(){
     var getMovie=function(peli, year){
         var callback = {
             onsucces:function(peliculas){
-                docuement.getElementaryById('namePeli');
-                docuement.getElementaryById('añoPeli');
+                docuement.getElementaryById('namePeli').value;
+                docuement.getElementaryById('añoPeli').value;
             },
             onFailef:function(){
                 alert('no funciona');
