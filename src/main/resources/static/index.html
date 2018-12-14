@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+     <body style="background-color:#CCD1D1;" >
+         <img src="/pelis1.jpg"width=1800" height="150">
+        <div>      
+            <center>
+                <h1></h1>
+            </center> 
+            
+            <br><br>
+            <h3>Esta aplicación realiza la bisquedade peliculas</h3>
+            
+            <center>
+                <br><br><br><br><br><br><br><br>
+                <h4>Ingrese el nombre de la pelicula:</h4>
+                <input type="text" id="namePeli" name="namePeli">
+                <br><br>
+                <h4>Ingrese el año en el que salio la pelicula:</h4>
+                <input type="text" id="añoPeli" name="añoPeli">
+                <br><br>
+                <input type="button" value="buscar" id="buscar" name="Buscar" onclick="peliculasModule.getMovie($(namePeli).value,$(añoPeli).value)">
+            </center>
+            
+            <footer class="mastfoot mt-auto">
+        <div class="inner">
+            <img src="/pelis2.jpg"width=1800" height="150">
+          <p>By: Karen Mora <a></a>.</p>
+        </div>
+      </footer>
+        </div>
+         
+         
+         <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+         <script src="js/RestConbtroller.js"></script>
+         <script src="js/peliculasControlle.js"></script>
+         
+    </body>
+</html>
